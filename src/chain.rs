@@ -42,6 +42,10 @@ impl Chain {
                 word.push(character);
             }
         }
+
+        if buffer.len() == self.gramcount + 1 {
+            self.insert_pair(&buffer);
+        }
     }
 
     fn insert_pair(&mut self, buffer: &Vec<String>) {
