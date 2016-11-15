@@ -1,0 +1,10 @@
+[project]
+name = "slack_markov"
+version = "0.1.0"
+authors = ["Blake Williams <blake@blakewilliams.me>"]
+
+[dependencies]
+rand = "0.3"
+slack = "0.16.0"
+slack_api = "0.15.0"
+hyper = "*"
